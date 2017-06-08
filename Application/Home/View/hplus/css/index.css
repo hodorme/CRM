@@ -1,0 +1,260 @@
+.index{
+	border:1px solid #ccc;
+	border-right:0px;
+	background:#fff;
+}
+.box{
+	border-right:1px solid #ccc;
+}
+.index img{
+	max-width:100%;
+}
+.col-md-3,.col-md-4,.col-md-8{
+	border-right:1px solid #ccc;
+}
+h3{
+	font-size:14px;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	width:100%;
+	min-height:250px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	width:100%;
+	left:0px;
+ 	z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  min-height:250px;
+}
+.carousel-inner > .item > img {
+	position:static;
+	+position:relative;
+	top:-50%;left:-50%;
+}
+.carousel-indicators li,.carousel-indicators .active{
+	width:100px;
+	background:#36A2ED;
+}
+.carousel-indicators .active{
+	background:#fff;
+}
+.carousel-indicators1 li,.carousel-indicators1 .active{
+	width:20px;
+}
+.carousel-control{
+	padding-top:120px;
+	font-size:150px;
+}
+.carousel-tj{
+	bottom:50px;
+	padding:0px;
+	margin:0px;
+}
+.carousel-tj li,.carousel-tj .active{
+	float:left;
+	width:30px;
+	height:20px;
+}
+.jaiodian{
+	bottom:0;
+	background:#000;
+	height:41px;
+	padding:5px;
+	margin:0px;
+}
+.jaiodian h4{
+	font-size:14px;
+	padding:5px;
+	margin:0px;
+}
+#sidebar {
+	top:10px;
+	height:180px;
+	width:960px;
+	position:absolute;
+}
+.sl{
+	left:-10px;
+	top:60px;
+	position:absolute;
+}
+.sr{
+	right:-10px;
+	top:60px;
+	position:absolute;
+}
+.itemList {
+	margin-top:10px;
+	width:960px;
+	height:170px;
+	overflow:hidden;
+	position:absolute;
+	_margin-left:0px;
+	text-align:left
+}
+.itemList a{
+	font-size:13px;
+	display:block;
+	padding:5px 30px;
+	width:180px;
+	height:170px;
+	text-align:center;
+	border-right: solid 1px #efefef;
+	color:#333;
+}
+.itemList a:hover {
+	color:#ef5600;
+}
+#linkbtn1,#linkbtn2{
+	width:110px;
+	color:#333;
+	text-align:center;
+	font-size:14px;
+}
+.fuwu,.keshi{
+	padding:1px;
+	border:1px solid #ccc;
+	border-top:0px;
+	background:#fff;
+}
+.fuwu li{
+	float:left;
+	width:20%;
+	text-align:center;
+}
+.fuwu li a{
+	display:block;
+	height:85px;
+	border-right:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+.fuwu li a:hover{
+	background:#eee;
+}
+.fuwu li .last{
+	border-right:0px solid #ccc;
+}
+.fuwu li a img{
+	margin:10px auto 0 auto;
+	display:block;
+}
+.ywgk li a{ 
+	display:block;
+	padding-top:50px;
+	height:170px;
+	border-right:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+.box1 {
+	width:755px;
+}
+.box2 {
+	width:335px;
+}
+.toutiao{
+	font-size:14px;
+}
+.toutiao h3{
+	padding:0px;
+	margin:3px;
+	text-align:center;
+	color:#277FB8;
+}
+.mingyi img{
+	float:left;
+	margin-right:10px;
+}
+.mingyi p{
+	line-height:1.8em;
+}
+.mingyi strong{
+	font-size:14px;
+	color:#2D92D6;
+}
+.mingyi strong,.mingyi b{
+	display:block;
+}
+.keshi li{
+	display:block;
+	margin:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #ccc;
+}
+.keshi li strong{
+}
+.keshi li img{
+	max-width:100%;
+}
+.keshi li a{
+	margin:5px;
+	padding:5px;
+	font-size:14px;
+}
+.keshi_l{
+	width:100px;
+}
+.keshi_r{
+	width:645px;
+}
+.keshi_l li{
+	border-bottom:0px solid #ccc;
+}
+.yidong{
+	display:block;
+}
+.yidong b{
+	font-size:14px;
+	font-weight:bolder;
+	display:block;
+	padding:10px 0;
+	color:#2D92D6;
+}
+.yidong:hover{
+position:relative;
+animation:myfirst 5s;
+-moz-animation:myfirst 5s; /* Firefox */
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+-o-animation:myfirst 5s; /* Opera */
+}
+@keyframes myfirst
+{
+0%   {background:white; left:0px; top:0;}
+25%  {background:#ccc; left:0; top:-10px;}
+50%  {background:#ccc; left:0; top:-10px;}
+75%  {background:#ccc; left:0px; top:-10px;}
+100% {background:#ccc; left:0px; top:-10px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {background:white; left:0px; top:0;}
+25%  {background:#ccc; left:0; top:-10px;}
+50%  {background:#ccc; left:0; top:-10px;}
+75%  {background:#ccc; left:0px; top:-10px;}
+100% {background:#ccc; left:0px; top:-10px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {background:white; left:0px; top:0;}
+25%  {background:#ccc; left:0; top:-10px;}
+50%  {background:#ccc; left:0; top:-10px;}
+75%  {background:#ccc; left:0px; top:-10px;}
+100% {background:#ccc; left:0px; top:-10px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {background:white; left:0px; top:0;}
+25%  {background:#ccc; left:0; top:-10px;}
+50%  {background:#ccc; left:0; top:-10px;}
+75%  {background:#ccc; left:0px; top:-10px;}
+100% {background:#ccc; left:0px; top:-10px;}
+}

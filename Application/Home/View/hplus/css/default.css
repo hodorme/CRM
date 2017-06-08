@@ -1,0 +1,518 @@
+@import url(animation.css);
+@import url(datatables.css);
+body {
+	font-family: "微软雅黑";
+	font-size:12px;
+}
+#ListTbl tbody td{
+	text-align: center;
+	word-break:break-all;
+}
+.col-md-5{
+
+}
+#side-menu .nav-header,.logo-element{
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+#side-menu li{
+	border-bottom: 1px solid #1f3e34;
+}
+.content-wrapper, .row, .content {
+	background: #ffffff;
+}
+.col-md-12 {
+	padding: 0px;
+}
+h2{
+	margin: 0px;
+	padding: 0px 0 0px 10px;
+	font-size: 14px;
+	height: 35px;
+	line-height: 30px;
+	font-weight: bolder;
+	color: #333;
+}
+.box_l {
+	width: 15%;
+	margin-left: 0;
+	margin-top: -30px;
+	padding-top: 30px;
+	height: 100%;
+}
+.box_r {
+	margin: 0 1%;
+	width: 83%;
+}
+.textlist {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px dashed #ccc;
+	line-height: 1.8em;
+}
+.textlist span {
+	float: right
+}
+.footer .icon {
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.panel-heading {
+	border: 1px solid #fff;
+}
+.panel-collapse {
+	border: 1px solid #999;
+}
+.nav-tabs{
+	background: #fff;
+}
+.nav-tabs li a {
+	padding: 10px 20px;
+	color: #666;
+}
+.nav-tabs .active {
+	border-top: 0px solid #000;
+}
+.tab-pane {
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-top: 0px;
+	background: #fff;
+}
+.listone a {
+	text-align: left;
+	padding-left: 10px;
+	display: block;
+	color: #000000
+}
+.desk_icon div a {
+	margin-top: 20px;
+	display: block;
+	width: 90px;
+	line-height: 30px;
+	text-align: center;
+	position: relative;
+	color: #333;
+}
+.desk_icon div {
+	-webkit-animation: zoomIn 1s ease alternate;
+	-moz-animation: zoomIn 1s ease alternate;
+	-o-animation: zoomIn 1s ease alternate;
+	animation: zoomIn 1s ease alternate;
+}
+.desk_icon div .fa {
+	clear: both;
+	display: block;
+	-moz-border-radius: 10px;      /* Gecko browsers */
+	-webkit-border-radius: 10px;   /* Webkit browsers */
+	border-radius: 10px;            /* W3C syntax */
+	box-shadow: 5px 5px 5px #ddd;
+}
+.desk_icon div:hover .fa {
+	-webkit-animation: flip 1s linear infinite;
+	-moz-animation: flip 1s linear infinite;
+	-o-animation: flip 1s linear infinite;
+	animation: flip 1s linear infinite;
+}
+.desk_icon div .badge {
+	position: absolute;
+	right: -5px;
+	top: -5px;
+}
+.boxradius {
+	-moz-border-radius: 5px;      /* Gecko browsers */
+	-webkit-border-radius: 5px;   /* Webkit browsers */
+	border-radius: 5px;            /* W3C syntax */
+}
+.boxshadow {
+	box-shadow: 5px 5px 5px #ddd;
+}
+.jindu {
+	border: 1px solid #eee;
+	border-right: 0px;
+	height: 35px;
+}
+.jindu .progress-bar {
+	font-size: 13px;
+	line-height: 35px;
+	border-right: 1px solid #eee;
+}
+.list-group-item {
+	padding: 8px 10px;
+}
+.shipping div{
+	background:#ef5600;
+}
+.strt-wrap {
+	width: 100%;
+	margin: 10px;
+	cursor: move;
+}
+.strt-part {
+	text-align: center;
+	float: left;
+	position: relative;
+}
+.strt-part .line-v {
+	position: relative;
+	height: 40px;
+	width: 100%;
+}
+.strt-part .line-v span {
+	display: block;
+	background: #ccc;
+	position: absolute;
+	top: 0;
+	font-size: 0;
+	line-height: 1px;
+	width: 1px;
+	height: 40px;
+	left: 50%;
+}
+.strt-name {
+	display: inline-block;
+	padding: 0 5px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	margin: 0 10px;
+	border-radius: 3px;
+	background: #f8f8f8;
+}
+.strt-part .line-h {
+	height: 1px;
+	display: block;
+	background: #ccc;
+	position: absolute;
+	top: 0;
+	font-size: 0;
+}
+.strt-part .line-h-l {
+	width: 50%;
+	left: 0;
+}
+.strt-part .line-h-c {
+	width: 100%;
+	left: 0;
+}
+.strt-part .line-h-r {
+	width: 50%;
+	right: 0;
+}
+.strt-block {
+	float: left;
+}
+.selected {
+	background:#efefef;
+}
+.tongji{
+	padding: 5px;
+	bottom: 1px solid #eee;
+}
+.searchbar{
+	font-size: 12px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #efefef;
+	-webkit-border-radius:  8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: #eee 0px 0px 10px;
+	-moz-box-shadow: #eee 0px 0px 10px;
+	box-shadow: #eee 0px 0px 10px;
+}
+.pdl-10{
+	margin-left: 10px;
+}
+.tab-content{
+}
+.line10{
+	clear: both;
+	height: 10px;
+	overflow: hidden;
+}
+.modal-dialog{
+	width: 800px;
+}
+.modal-header{
+	margin: 0px;
+	padding: 10px;
+	border-radius:5px 5px 0 0;
+	background: -webkit-linear-gradient(90deg, #1e50a2, #bce2e8); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(90deg, #1e50a2, #bce2e8); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(90deg, #1e50a2, #bce2e8); /* Firefox 3.6 - 15 */
+    background: linear-gradient(90deg, #1e50a2, #bce2e8); /* 标准的语法（必须放在最后） */
+}
+.modal-header .modal-title{
+	font-weight: normal;
+	padding: 1px 5px;
+	font-size: 14px;
+	color: #fff;
+}
+.modal-header .close{
+	margin: 0 5px;
+}
+.toolbar{
+	margin: 0px;
+	padding: 0px;
+	background: #efefef;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+	border-radius:0;
+}
+.toolbar .nav{
+}
+.toolbar li{
+	border-right: 1px solid #fff;
+}
+.toolbar li a{
+	border-right: 1px solid #ddd;
+}
+.toolbar ul li ul li,.toolbar ul li ul li a{
+	border-right: 0;
+}
+.panel-title{
+	cursor:pointer
+}
+.panel-body{
+	padding: 3px;
+}
+.boxform label{
+	margin-top: 5px;
+	text-align: right;
+}
+.boxform div{
+	margin-top: 5px;
+}
+h2{
+	display: inline-block;
+	width: 100%;
+	padding:2px;
+	line-height: 25px;
+	height:25px;
+	cursor: pointer;
+	border:1px solid #b6bcbf;
+	background: #b6bcbf;
+	color: #000000;
+}
+.fupad{
+	padding: -10px;
+}
+.hdtongji{
+	font-size: 18px;
+	position: fixed; top: 10px; right: 50px; color: white
+}
+.hdtongji b{
+	font-size: 20px;
+}
+.inspectionphoto li{
+	position: relative;
+	float: left;
+	width: 33%;
+}
+.inspectionphoto li b{
+	position: absolute;
+	left: 0px;
+	bottom: 10px;
+	background: #000;
+	color: #eee;
+	font-size: 20px;
+}
+.inspectionphoto li img{
+	max-width: 100%;
+}
+.tabTitle{
+	padding:5px 0;
+}
+.tabTitle b{
+	padding:5px;
+	background: #eee;
+}
+.tabTitle span{
+	font-size: 16px;
+	color: red;
+}
+.tree {
+	min-height:20px;
+	padding:19px;
+	margin-bottom:20px;
+	background-color:#fbfbfb;
+	border:1px solid #999;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05)
+}
+.tree li {
+	list-style-type:none;
+	margin:0;
+	padding:10px 5px 0 5px;
+	position:relative
+}
+.tree li::before, .tree li::after {
+	content:'';
+	left:-20px;
+	position:absolute;
+	right:auto
+}
+.tree li::before {
+	border-left:1px solid #999;
+	bottom:50px;
+	height:100%;
+	top:0;
+	width:1px
+}
+.tree li::after {
+	border-top:1px solid #999;
+	height:20px;
+	top:25px;
+	width:25px
+}
+.tree li span {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #999;
+	border-radius:5px;
+	display:inline-block;
+	padding:3px 8px;
+	text-decoration:none
+}
+.tree li.parent_li>span {
+	cursor:pointer
+}
+.tree>ul>li::before, .tree>ul>li::after {
+	border:0
+}
+.tree li:last-child::before {
+	height:30px
+}
+.tree li.parent_li>span:hover, .tree li.parent_li>span:hover+ul li span {
+	background:#eee;
+	border:1px solid #94a0b4;
+	color:#000
+}
+.stitle{
+	padding:10px;
+	background: #ef5600;
+	color: #fff;
+}
+.box-header{
+	padding:10px;
+}
+.box-header .box-title{
+	font-size: 13px;
+}
+.statistics{
+	padding: 10px;
+}
+.statistics b{
+	font-size: 14px;
+	color: #ef5600;
+}
+.tabHeader{
+	padding:5px;
+	background:#efefef;
+}
+.tabHeader b{
+	line-height:30px;
+}
+.layui-tab,.layui-tab-content,.layui-tab-item{
+	font-size: 12px;
+	padding: 0px;
+	background: #fff;
+}
+.avatar{
+	position: relative;
+	text-align: center;
+}
+.avatar img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.site-demo-upbar{position: absolute; top: 50%; left: 50%; margin: -18px 0 0 -56px;}
+.layim-list-gray{-webkit-filter: grayscale(100%);  -ms-filter: grayscale(100%); filter: grayscale(100%);}
+.record_list li{
+	margin-top: 5px;
+	display: block;
+	padding: 5px 0;
+	border-bottom: 1px solid #eee;
+}
+.record_list li img{
+	display: block;
+	max-width: 100%;
+}
+.record_list li b{
+	color: #0d8ddb;
+}
+.record_list li .my{
+	color: #1d9d74;
+}
+.layui-input,.layui-form-mid{
+	height: 28px;
+	line-height: 25px;
+}
+.workflowmsg{
+	padding: 5px 10px 0 10px;
+	background: #efefef;
+}
+.workflowtab{
+	margin: auto;
+	width: 600px;
+	border: 1px solid #ccc;
+}
+.workflowtab td{
+	padding: 5px;
+}
+.workflowdiv{
+	margin: 5px auto;
+	width: 600px;
+}
+.noborders{
+    border: 0px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.disable{
+    background:#eeeeee;
+}
+#msglist li{
+    list-style-type:none;
+    background:#efefef;
+}
+#msglist li fieldset{
+    margin: 4px 0px;
+    padding: 10px;
+
+}
+#msglist li fieldset strong{
+    color:red;
+}
+#msglist li .xuhao{
+    display: block;
+    float: left;
+    width: 50px;
+    line-height: 65px;
+    background:#2D92D6;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.lead b{
+	font-size: 20px;
+}
+.wtitle{
+	padding: 8px;
+	background: #00a7d0;
+	color: #fff;
+}
+#addForm{
+	overflow:auto !important;
+}
+.num{
+    display: block;
+    float: left;
+    margin-right: 5px;
+}

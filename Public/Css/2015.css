@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.content{
+	margin:0px;
+	background: #eee;
+}
+th,td{
+	font-size:12px;
+}
+.clear{
+	clear:both;
+}
+.input-group .form-control{
+	padding-right:5px;
+}
+#Aopen{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	border:1px solid #FF8800;
+	border-bottom:0px;
+	background:#000;
+	z-index:999;
+}
+.caozuo,.tongji{
+	padding-bottom:5px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+}
+.tongji{
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.tongji b{
+	padding:0 5px;
+	font-size:16px;
+	color: #FF0000;
+}
+.isclose{
+	text-decoration: line-through;
+}
+.isnew{
+	color:#FF0000;
+}
+.jine{
+	font-weight:bolder;
+	color:#FF8800
+}
+#sdate,#edate{
+	width:90px;
+}
+#tishi{
+	position:absolute;
+	border:1px solid #FF8800;
+	border-bottom:0px;
+	background:#fff;
+	z-index:999;
+}
+ul,li{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+#tishi li{
+	padding:5px 20px;
+	border-bottom:1px solid #FF8800;
+	cursor:pointer;
+}
+#tishi li:hover{
+	background:#FF8800;
+}
+.birth{
+	text-align:center;
+}
+th,td,.table-bordered {
+	border-radius:0!important
+}
+.table thead tr {
+	color:#333;
+	font-weight:normal;
+	background:#f2f2f2;
+	background-image:-webkit-gradient(linear,left 0,left 100%,from(#f8f8f8),to(#ececec));
+	background-image:-webkit-linear-gradient(top,#f8f8f8,0%,#ececec,100%);
+	background-image:-moz-linear-gradient(top,#f8f8f8 0,#ececec 100%);
+	background-image:linear-gradient(to bottom,#f8f8f8 0,#ececec 100%);
+	background-repeat:repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8',endColorstr='#ffececec',GradientType=0)
+}
+.table thead tr th {
+	border-color:#DDD;
+	font-weight:bold
+}
+.table thead tr th [class*="icon-"]:first-child {
+	margin-right:1px
+}
+.table thead tr th:first-child {
+	border-left-color:#ffffff
+}
+.table thead tr th:left-child {
+	border-right-color:#ffffff
+}
+.table.table-bordered thead tr th {
+	vertical-align:middle
+}
+.table.table-bordered thead tr th:first-child {
+	border-left-color:#DDD
+}
+tr td {
+	padding: 0px;
+	height: 20px;
+	line-height: 20px;
+}
+th.center,td.center {
+	text-align:center
+}
+th .lbl,td .lbl {
+	margin-bottom:0
+}
+th .lbl:only-child,td .lbl:only-child {
+	vertical-align:top
+}

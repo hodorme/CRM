@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	font-size:12px;
+}
+.content{
+	margin:0px;
+	background: #eee;
+}
+th,td{
+	font-size:12px;
+}
+.clear{
+	clear:both;
+}
+.input-group .form-control{
+	padding-right:5px;
+}
+.radius {
+    border: 5px solid #dedede;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+}
+/* 自动完成 */
+#autocompleter{
+	position:absolute;
+	border:1px solid #FF8800;
+	border-bottom:0px;
+	background:#fff;
+	z-index:999;
+}
+#autocompleter li{
+	padding:5px 20px;
+	border-bottom:1px solid #FF8800;
+	cursor:pointer;
+}
+#autocompleter li:hover{
+	background:#FF8800;
+}

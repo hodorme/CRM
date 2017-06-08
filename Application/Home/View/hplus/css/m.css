@@ -1,0 +1,366 @@
+/* Template-specific stuff
+ *
+ * Customizations just for the template; these are not necessary for anything
+ * with disabling the responsiveness.
+ */
+
+/* Account for fixed navbar */
+body {
+    margin:0px;
+    padding:0px;
+    font-size: 14px;
+    overflow-x:hidden;
+    background: #ffffff;
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+}
+.clear{
+    clear:both;
+}
+/* Don't let the lead text change font-size. */
+.lead {
+    font-size: 16px;
+}
+ul, li,form {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+h1,h2,h3,h4{
+    margin:0px;
+    padding:5px;
+    font-size:14px;
+    font-weight:bolder;
+}
+h1{
+    font-size:20px;
+    text-align: center;
+    padding:5px;
+    color: #273a45;
+    background: url(../img/bg-title.png) no-repeat bottom center;
+    border-bottom: 1px solid #e6e6e6;
+}
+h2 a{
+    float:right;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.ui-content{
+    padding:0px;
+}
+.menu a{
+    line-height: 35px;
+}
+.menu li:hover{
+    background:#fff;
+}
+.searchbar{
+    padding:0px;
+    margin: 0px;
+}
+.searchbar input{
+    height:30px;
+    border: 1px solid #ccc;
+}
+.banner,.ad{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+.banner img,.ad img{
+    width: 100%;
+}
+.iconlist{
+    text-align: center;
+    background: #f7f7f7;
+}
+.iconlist div{
+    padding:10px;
+    border: 0px solid #f7f7f7;
+}
+.iconlist div:hover{
+    border: 0px solid #e6e6e6;
+}
+.iconlist img{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+}
+.iconlist div a{
+    color: #333333;
+}
+.ipic div{
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+.goodsList li{
+    height:150px;
+    padding:10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.goodsList li b{
+    display: block;
+    font-size:16px;
+    color:#273a45;
+    height: 50px;
+}
+.unit{
+    color: #c3c3c3;
+}
+.price {
+    font-size: 32px;
+    color: #de4a3e;
+}
+.buy{
+    text-align: right;
+    height: 40px;
+}
+.gocart{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/* Non-responsive overrides
+ *
+ * Utilize the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+.notend{
+    border-right:1px solid #eee;
+}
+.count{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+/* 商户列表 */
+.shoplist li{
+    margin:5px 5px 20px 5px;
+    border-radius:4px 4px 0 0 ;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background:#efefef;
+}
+.shoplist li a{
+    display:block;
+    font-size:20px;
+    padding:10px;
+    background:#efefef;
+    color:#03C425;
+}
+.shoplist li a p{
+    display:block;
+    font-size:14px;
+}
+.shoplist li a:hover{
+    background:#03C425;
+    color:#FFFFFF;
+}
+/* 商品列表 */
+.shop li {
+    display:block;
+    padding:10px;
+    margin:5px 0;
+    height:120px;
+    border: 1px solid #ccc;
+    background:#fff;
+    color:#666;
+}
+.shop li a{
+    font-size:14px;
+    color:#03C425;
+}
+.shop li:hover{
+    background:#eee;
+}
+.shop li i{
+    font-size:14px;
+    display:block;
+    color:#999;
+}
+.shop li img {
+    float:left;
+    margin-right:10px;
+    width:100px;
+}
+.shop li .price{
+    text-indent:0px;
+}
+.shop li .gouwuche{
+    float:right;
+    margin-top:-30px;
+    font-size:20px;
+    color:rgba(3,196,37,1.00);
+}
+.article span {
+    float: right;
+}
+.article li {
+    margin: 2px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+.article li a {
+    display: block;
+}
+.article li:hover {
+    background: #eee;
+}
+.image li {
+    border:1px solid #ccc;
+}
+.image li img {
+    float: left;
+    margin: 10px;
+}
+.goodsv{
+    padding-bottom:60px;
+    text-align:center;
+}
+.goodsv img{
+    max-width:100%;
+}
+}
+.price1{
+    text-indent:0px;
+    text-decoration:line-through;
+}
+.footbtn{
+    position:fixed;
+    bottom:50px;
+    width:100%;
+    z-index:99;
+    background:#fff;
+}
+.dibubtn{
+    width:100%;
+}
+
+.buy-info{
+    height:100px;
+    padding:5px;
+    background:#eee;
+    overflow:hidden;
+}
+.buy-info img{
+    width:90px;
+    height:90px;
+    float:left;
+    margin:0 10px;
+}
+.buy-num{
+    padding:10px;
+}
+.btitle{
+    font-size:16px;
+}
+.allbg{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:#000;
+}
+.zhezhao{
+    position:absolute;
+    width:100%;
+    height:3500px;
+    top:0;
+    z-index:600;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    -khtml-opacity:0.8;
+    opacity: 0.8;
+    background:#000;
+    _position: absolute;
+    _top: expression_r(document . documentElement . clientHeight +   document .
+    documentElement . scrollTop -   this . offsetHeight);
+}
+.tsbar{
+    margin:0px;
+    padding:10px;
+    background:rgba(0,0,0,0.5) none repeat scroll !important;
+    background:#000;
+    filter:Alpha(opacity=50);/*实现IE背景透明*/
+}
+.tsbar div{
+    position:relative;
+}
+.getorder{
+    margin-bottom:10px;
+    padding:10px 0;
+    background:#fff;
+}
+.getorder div{
+    margin:5px;
+}
+.mmenu{
+    padding:5px;
+    border:1px solid #ccc;
+    margin-top:20px;
+}
+.mmenu li{
+    display:block;
+    padding:10px;
+    margin-bottom:1px;
+    background:#efefef;
+}
+.mmenu li a{
+    display:block;
+    color:#333;
+}
+.login{
+    margin:60px;
+}
+.userinfo{
+    height:100px;
+    background: url(/Img/bgheader.jpg) no-repeat;
+    color:#fff;
+}
+.userinfo img{
+    float:left;
+    margin:10px;
+    width:80px;
+    border:2px solid #fff;
+}
+.userinfo a{
+    display:block;
+    padding:20px;
+    color:#fff;
+}
+.userinfo b{
+    display:block;
+    font-size:20px;
+}
+.jiantou{
+    font-size:30px;
+}
+.olist{
+    margin-bottom:5px;
+    padding:10px;
+    border:5px solid #eee;
+}
+.olist h1{
+    margin:5px 0;
+    padding:0px;
+    font-size:16px;
+}
+.olist h1 span{
+    float:right;
+    font-size:13px;
+}
+.floatbar{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index: 999;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - 50));
+}

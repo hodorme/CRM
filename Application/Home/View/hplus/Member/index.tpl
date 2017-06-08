@@ -1,0 +1,3 @@
+<extend name="Public/base" />
+<block name="main">
+</block>
